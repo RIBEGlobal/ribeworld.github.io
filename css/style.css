@@ -1,0 +1,91 @@
+ul {
+
+float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Space Grotesk;
+}
+
+#header {
+
+padding-top: 0px;
+padding-bottom: 280px;
+
+
+}
+
+#acomp {
+	font-family: Ubuntu;
+	font-weight: 400;
+}
+
+#conect {
+	font-size: 40px;
+	line-height: 42px;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  color: white;
+}
+
+.responsive {
+	 width: 100%;
+  height: auto;
+}
+
+
+@media only screen and (min-width: 59.6875em) {
+    /* tablets and desktop */
+    .hide-from-cel{display:none;}
+}
+@media only screen and (max-width: 59.6875em) {
+    .hide-from-desktop{display:none;}
+}
+
+#estamos{
+	padding-top: 150px;
+	text-align: center;
+	font-family: Ubuntu;
+	color: white;
+	font-size: 40pt;
+}
+
+#espera {
+	text-align: center;
+	font-size: 20pt;
+	color: white;
+	font-family: Ubuntu;
+	font-weight: 400;
+
+}
+
+#footer{
+	text-align: center;
+	font-size: 10pt;
+	color: white;
+	font-family: Ubuntu;
+	font-weight: 400;
+}
+
+#mundo {
+	float: right;
+	max-width: 800px;
+
+
+}
